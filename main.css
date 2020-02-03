@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+    float: left;
+    }
+</style>
+</head>
+<body>
+
+<style>
+body {
+    font-family: Arial, black, sans-serif;font-size: 100%; 
+    }
+
+h1 {
+    color:orange
+    }
+h1 {
+    text-shadow: 1px 1.5px black;
+    }
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: orange;
+}
+
+</style>
+
+</body>
+
+<footer>
+<style>
+.center {
+  margin: auto;
+  width: 15%;
+  padding: 10px;
+}
+</style>
+</footer>f
+</html>
