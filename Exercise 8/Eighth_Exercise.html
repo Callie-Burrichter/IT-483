@@ -1,0 +1,123 @@
+/*
+Callie Burrichter
+IT 483 Section 02
+Exercise 8
+2/17/2020
+*/
+
+<!Doctype HTML>
+<HTML>
+ <head>
+   
+   <title>Halloween Store</title>
+   
+   <link rel="shortcut icon" href="../Users\cburr\Documents\2020 FALL\IT 483\Exercise_8\pumpkin.gif">
+   <link rel="stylesheet" type = text/css href="main8.css">
+   <link rel="stylesheet" href="..\Users\cburr\Documents\2020 FALL\IT 483\Exercise_8\normalize.css"> 
+    </head>
+  <body>
+  <content id="all">
+  <header>
+        <img src="C:\\Users\cburr\Documents\2020 FALL\IT 483\Exercise_8\pumpkin.gif"/>
+        <h2>The Halloween Store</h2>
+        <h3>For the little Goblin in all of us!</h3>
+    </header>
+    
+   <div class="navbar">
+  <a href="#home">Home</a>
+  
+  <div class="subnav">
+    <button class="subnavbtn" onclick="window.location.href='/Seventh_Exercise.html'">Product List </button>
+      <a href="/Eighth_Exercise.html">Product List</a>
+    <div class="subnav-content">
+      <a href="/Eighth_Exercise.html">Costumes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="/decorations.html">Decorations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
+  </div>
+  
+  
+  <div class="subnav">
+    <button class="subnavbtn">Personal</button>
+    
+    <!--
+    <div class="subnav-content">
+      <a href=></a>
+      <a href=""></a>
+    </div>
+    -->
+    
+  </div>
+  
+  
+  <div class="subnav">
+    <button class="subnavbtn">Decorating Ideas</button>
+    <div class="subnav-content">
+      <a href="/outdoor.html">Outdoor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="/indoor.html">Indoor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="/table.html">Table&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="/treats.html">Treats&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
+  </div>
+  
+  
+  <div class="subnav">
+  <button class="subnavbtn" onclick="window.location.href='..\Users\cburr\Documents\2020 FALL\IT 483\Exercise_8\normalize.css'">Join Email</button>
+   
+    </div>
+</div>
+
+    
+    <main>
+       <sideBar>
+        <ul>
+          <li><a class="active" href="#Props">Props</a></li>
+          <li><a href="#Costumes">Costumes</a></li>
+          <li><a href="#Special FX">Special FX</a></li>
+          <li><a href="#Masks">Masks</a></li>
+        </ul>  
+       </sideBar>   
+
+      
+      <form>
+      <h2>Please enter the following information: </h2>
+       <form id = "myForm" class = "form" action="/submission.php" onSubmit = "return validation()">
+          <label for="fname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First name:&nbsp;&nbsp;</label>
+          <input type="text" id="fname" name="fname" placeholder=""><br><br>
+          
+          <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last name:&nbsp;&nbsp;</label>
+          <input type="text" id="lname" name="lname" placeholder=""><br><br>
+          
+          <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: &nbsp;</label>
+          <input type="text" id="email " name="email" placeholder=""><br><br>
+          
+          <label for="zip">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zip Code: &nbsp;</label>
+          <input type="text" id="zip" name="zip" placeholder="Optional but appreciated: 99999"><br>
+          
+          
+          <input id = "submit" type = "submit" onClick = "myFunction()" value='Subscribe'/>
+        
+          
+          <!--
+          <input id = "submit" type = "submit" onClick = "location.href = 'C:\Users\cburr\Documents\2020 FALL\IT 483\Exercise_8\submission.html'" value='Subscribe'/>
+          -->
+          
+       </form> 
+       </form>
+       
+       <script>
+           function myFunction() {
+  alert("Thank you for joining my email list!\n You will be hearing from me soon. In the meantime, please feel free to browse through my site.");
+}
+       </script>
+       
+       
+    </main>
+        </content>
+            </body>
+   
+        <footer>
+        <p>&copy; 2018 Ben Murach</p>
+        
+    </footer>
+    
+</HTML>
