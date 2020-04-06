@@ -1,0 +1,90 @@
+/*
+Callie Burrichter
+IT 483 Section 02
+Midterm
+4/5/2020
+*/
+
+@charset "utf-8";
+
+html {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-image: url(image1.gif);
+    align-content: center;
+    background-repeat: repeat-x | repeat-y
+    color:darkblue;
+}
+
+.sidenav {
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: white;
+  overflow-x: hidden;
+  padding: 8px 0;
+  text-align: left
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 1px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+/*----------*/
+body {
+  margin-left: 250px; 
+  padding: 0px 10px    
+  float: center;
+  text-align: center;
+}
+
+/*----------*/
+header img {
+    float: left;
+}
+
+header {
+    min-height: 100%;
+}
+
+header > h1#bodyTitle {
+    float: center;
+    color: blue;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > h3#name {
+    float: center;
+    color: black;
+    font-style:italic;
+    font-family: "Times New Roman", Times,serif;
+    text-align: center;
+}       
+
+header > ol {
+    align-content:center;
+}
+header > il {
+    align-content:center;
+}
+
+
+/*---------*/
+footer {
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    float: center;
+}
