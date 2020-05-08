@@ -1,0 +1,47 @@
+<!--
+Callie Burrichter
+IT 483 Section 02
+JavaScript Assignment 2
+3/9/2020
+This assignment would not let me comment inside the code
+-->
+
+<html lang="en">
+<head>
+<meta charset="UTF-S">
+
+<title>Fahrenheit to Celsius</title>
+
+<script>
+function convertTemp()
+{
+        var fTemp = prompt("Enter Fahrenheit temperature.\n Enter 999 to stop.");
+        if (fTemp == 999)
+        {
+        //Do nothing & show thank you page
+        }
+    else
+    {
+        if (isNaN(fTemp) || !(fTemp >= -100 && fTemp <= 212)
+        {
+        alert("Invalid Tempature. Enter a value between -100 and 212");
+        convertTemp();
+        }
+        else 
+        {
+        var cTemp = (fTemp-32)*(5/9);
+        alert("Temperature in Celsius is :"+cTemp.tofixed(2));
+        convertTemp();
+        }
+    }
+}
+    
+</script>
+</head>
+<body onload = "convertTemp()">
+    <main>
+        <h3>Thanks for using the temperature converter!</h3>
+    </main>
+</body>
+</html>
+    
